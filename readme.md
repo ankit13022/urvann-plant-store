@@ -1,4 +1,4 @@
-# 🌱 Urvann Mini Plant Store
+# Urvann Mini Plant Store
 
 A **minimal full‑stack web application** (Frontend + Backend) built as part of the **Urvann Software Development Intern Assignment**.
 
