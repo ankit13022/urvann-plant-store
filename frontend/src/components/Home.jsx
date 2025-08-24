@@ -33,18 +33,23 @@ function Home() {
 
   return (
     <div className="bg-green-100">
-      <div className="w-full h-36 md:h-96 overflow-hidden">
-        <img
-          src="/home-mg.avif"
-          alt="Plant Store Banner"
-          className="w-full h-full object-cover object-bottom"
-        />
+      <div className="w-full h-36 md:h-96 overflow-hidden relative">
+        <video
+          className="w-full h-full object-cover object-center"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/plants-banner.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div className="py-8 px-4 sm:px-10 md:px-20 lg:px-36">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-6">
-          Discover Beautiful <span className="text-green-700">Plants</span>
-        </h1>
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-6">
+          Explore Our <span className="text-green-700">Collection</span>
+        </h2>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
           <input
