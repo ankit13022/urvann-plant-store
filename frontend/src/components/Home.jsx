@@ -35,7 +35,7 @@ function Home() {
     <div className="bg-green-100">
       <div className="w-full h-36 md:h-96 overflow-hidden relative">
         <video
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-cover object-bottom"
           autoPlay
           muted
           loop
